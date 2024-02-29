@@ -1,0 +1,253 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-image: linear-gradient(90deg,#FF6584,#FD518D, #D44793, #A33F97);
+}
+.task-container{
+    background-color: rgb(240, 238, 238, .7);
+    width: 70vw;
+    margin: 30px;
+    padding: 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.decoration{
+    width: 0vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.add-task{
+    display: flex;
+    justify-content: end;
+}
+.add-task button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-left: 12px;
+    width: 120px;
+    height: 45px;
+    border-radius: 24px;
+    border: none;
+    color: #999999;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.add-task button:hover{
+    transform: scale(.95);
+}
+.bi-plus-lg{
+    font-size: 26px;
+    color: #E4E4E4;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-right: 17px;
+}
+.pt1{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+.pt2{
+    width: 78%;
+}
+.pt2-content{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.pt3{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+.pt3 label input{
+    height: 50px;
+    width: 50px;
+}
+.bi-pencil-square{
+    font-size: 25px;
+    color: #A0A0A0;
+}
+
+
+.more-task{
+    width: 30vw;
+    height: 100vh;
+    background-color: white;
+    border-radius: 18px 0px 0px 18px;
+    position: relative;
+    padding: 6px;
+}
+.bi-x-circle-fill{
+    color: #A0A0A0;
+    font-size: 22px;
+}
+.more-task form{
+    padding: 18px;
+    gap: 12px;
+}
+form{
+    display: grid;
+}
+p{
+    display: flex;
+    flex-direction: column;
+}
+p input{
+    border: 2px solid #9E9E9E;
+    border-radius: 12px;
+}
+p:nth-child(1) input{
+    grid-area: input1;
+    height: 62px;
+}
+p:nth-child(2) input{
+    grid-area: input2;
+    height: 113px;
+
+}
+p:nth-child(3) input{
+    grid-area: input3;
+    height: 47px;
+
+}
+form:nth-child(4) {
+    grid-area: button;
+    height: 47px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+label{
+    display:block;
+    line-height:40px;
+  }
+  .option-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    transition: all 0.15s ease-out 0s;
+    background: #cbd1d8;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+    border-radius: 20px;
+  }
+  .option-input:hover {
+    background: #9faab7;
+  }
+  .option-input:checked {
+    background: #D44793;
+  }
+  .option-input:checked::before {
+    width: 40px;
+    height: 40px;
+    display:flex;
+    content: '\f00c';
+    font-size: 25px;
+    font-weight:bold;
+    position: absolute;
+    align-items:center;
+    justify-content:center;
+    font-family:'Font Awesome 5 Free';
+  }
+  .option-input:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.95s;
+    animation: click-wave 0.65s;
+    background: #D44793;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+  .option-input.radio {
+    border-radius: 50%;
+  }
+  .option-input.radio::after {
+    border-radius: 50%;
+  }
+  
+  @keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.35;
+      position: relative;
+    }
+    100% {
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+      margin-left: -30px;
+      margin-top: -30px;
+      opacity: 0;
+    }
+  }
+ */

@@ -1,0 +1,249 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.visual{
+    height: 100vh;
+    width: 50vw;
+}
+.visual .all{
+    border-radius: 0px 0px 340px 340px;
+    background-image: linear-gradient(#FF6584,#FD518D, #D44793, #A33F97);
+    position: relative;
+    rotate: -50deg;
+}
+.v1{
+    height: 800px;
+    width: 400px;
+    top: -100px;
+    left: -80px;
+}
+.v1_opacity{
+    height: 884px;
+    width: 470px;
+    opacity: .3;
+    top: -950px;
+    left: -130px;
+    animation: pulse 3s infinite;
+    animation-direction: alternate, reverse;
+}
+.v2{
+    height: 400px;
+    width: 200px;
+    top: -1900px;
+    left: 280px;
+}
+
+.v3{
+    height: 300px;
+    width: 150px;
+    top: -1500px;
+    left: -10px;
+}
+
+.v4{
+    height: 5600px;
+    width: 200px;
+    border-radius: 0px 0px 340px 340px;
+    background-image: linear-gradient(#F974A3 87%, #FEAF87  );
+    position: relative;
+    top: -2650px;
+    left: 2300px;
+    rotate: 130deg;
+    
+}
+@keyframes pulse {
+    to{
+      transform: scale(1.05);
+    }
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 100px;
+}
+h1{
+    font-size: 46px;
+}
+
+form{
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+}
+input{
+    height: 62px;
+    width: 345px;
+    border-radius: 12px;
+    border: 2.5px solid #9E9E9E;
+    padding-inline: 12px;
+    transition: .3s;
+    font-size: 20px;
+}
+.card p{
+    padding-left: 12px;
+}
+.conteiner-card{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.interactions{
+    width: 730px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 48px;
+    padding-top: 70px;
+}
+
+.btn-return{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #A0A0A0;
+    gap: 4px;
+    transition: .4s;
+    cursor: pointer;
+}
+.btn-return:hover{
+    color: #6A6A6A;
+    transform: scale(.95);
+}
+
+.btn-register{
+    height: 65px;
+    width: 231px;
+    background-image: linear-gradient(90deg,#FE9172,#FF6584,#FD518D, #D44793, #A33F97);
+    border: none;
+    border-radius: 24px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    cursor: pointer;
+}
+.btn-register:hover{
+    transform: scale(.95);
+}
+.premium{
+    color: #9E9E9E;
+}
+
+/*Toggle checkbox code: Himalaya Singh */
+  
+  .toggle-button-cover {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    box-sizing: border-box;
+  }
+  .button-cover,
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .button {
+    position: relative;
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    overflow: hidden;
+  }
+  
+  .button.r,
+  .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  .button.b2 {
+    border-radius: 2px;
+  }
+  
+  .checkbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .knobs {
+    z-index: 2;
+  }
+  
+  .layer {
+    width: 100%;
+    background-color: #FBE5ED;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+
+#button-4 .knobs:before,
+#button-4 .knobs:after {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 10px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+  padding: 9px 4px;
+  background-color: #F974A3;
+  border-radius: 50%;
+  transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-4 .knobs:before {
+  content: "YES";
+}
+
+#button-4 .knobs:after {
+  content: "NO";
+}
+
+#button-4 .knobs:after {
+  top: -28px;
+  right: 4px;
+  left: auto;
+  background-color: #A33F97;
+}
+
+#button-4 .checkbox:checked + .knobs:before {
+  top: -28px;
+}
+
+#button-4 .checkbox:checked + .knobs:after {
+  top: 4px;
+}
+
+#button-4 .checkbox:checked ~ .layer {
+  background-color: #FDE6FC;
+}
