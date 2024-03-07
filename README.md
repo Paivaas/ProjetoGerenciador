@@ -12,3 +12,13 @@
 - [ ] Comentario
 - [ ] Conta Premium
 - [ ] Like nos comentarios
+
+<details><summary>Check-List - Projeto final:</summary> 
+  <ul> 
+    <li>[x] Login</li>
+    <li>[x] Cadastro</li>
+    <li>[ ] Sistema de tarefas</li>
+    <li>[ ] Conta Premium</li>
+    <li>[ ] Like nos comentarios</li>
+  </ul>
+</details>
