@@ -6,9 +6,9 @@
 
 
 Requesitos
-[x] Login
-[x] Cadastro
-[] Sistema de tarefas
-[] Comentario
-[] Conta Premium
-[] Like nos comentarios
+- [x] Login
+- [x] Cadastro
+- [ ] Sistema de tarefas
+- [ ] Comentario
+- [ ] Conta Premium
+- [ ] Like nos comentarios
