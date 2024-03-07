@@ -5,15 +5,7 @@
 ![Home](https://github.com/Paivaas/ProjetoGerenciador/assets/123731976/f5f4a04d-dc77-4be3-8fa9-c2957006a0b0) | ![Home - premium](https://github.com/Paivaas/ProjetoGerenciador/assets/123731976/6e18756e-ea73-42e7-abe8-bfac5cffcb36)
 
 
-> Requisitos
-- [x] Login
-- [x] Cadastro
-- [ ] Sistema de tarefas
-- [ ] Comentario
-- [ ] Conta Premium
-- [ ] Like nos comentarios
-
-<details><summary>Check-List - Projeto final:</summary> 
+<details><summary> Requisitos</summary> 
   <ul> 
     <li>[x] Login</li>
     <li>[x] Cadastro</li>
